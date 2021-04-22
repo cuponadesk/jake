@@ -2,8 +2,8 @@
   <div class="employee-landing-page">
       <h1>Welcome, BeefCakes employee!</h1>
       <div class="emp-landing-display">
-      <router-link v-bind:to="{ name: 'employee-products' }" class="emp-landing-card"><img src="..\assets\products.png"/><p>Products</p></router-link><br />
-      <router-link v-bind:to="{ name: 'employee-orders' }" class="emp-landing-card"><img src="..\assets\orders.png"/><p>Orders</p></router-link>
+      <router-link v-bind:to="{ name: 'employee-products' }" class="emp-landing-card"><img src="images/products.png"/><p>Products</p></router-link><br />
+      <router-link v-bind:to="{ name: 'employee-orders' }" class="emp-landing-card"><img src="images/orders.png"/><p>Orders</p></router-link>
       </div>
       </div>
 </template>
